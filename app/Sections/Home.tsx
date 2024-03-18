@@ -16,8 +16,8 @@ import TwitterLogo from '../Assets/Twitter-Logo.png'
 function Home() {
 
   return (
-    <div id='Home' className='flex flex-col md:flex-row-reverse justify-evenly items-center mb-32 overflow-hidden'>
-          <div data-aos="fade-left" data-aos-duration="3000" className='min-w-[300px] max-w-[600px]'>
+    <div id='Home' className='flex flex-col md:flex-row-reverse justify-evenly items-center mb-32 px-12'>
+          <div data-aos="zoom-down" data-aos-duration="3000" className='min-w-[300px] max-w-[600px]'>
             <h3>Hello, <span className='text-[#fa043d] text-xl'>I'm</span></h3>
             <h1 className='text-6xl py-2'>Kayode Uthman</h1>
             <h2 className='text-3xl'>Front End Engineer</h2>
@@ -45,8 +45,8 @@ function Home() {
               </span>
             </div>
         </div>
-        <div data-aos="fade-right" className='w-[500px] h-[500px] cursor-pointer flex items-center'>
-          <Image className='mx-auto w-full scaleAnimation' src={DevImage} alt='An Image of Kayode Uthman'/>
+        <div data-aos="fade-right" className='sm:w-[500px] sm:h-[500px] w-[350px] h-[350px] cursor-pointer flex items-center'>
+          <Image className='mx-auto w-full sm:scaleAnimation' src={DevImage} alt='An Image of Kayode Uthman'/>
         </div>
     </div>
   )

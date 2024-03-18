@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 function Portfolio() {
   return (
-    <div id="Portfolio" className='mt-16'>
+    <div id="Portfolio" className='mt-16 px-12'>
         <h1 className='text-center text-5xl text-[#fa043d]' data-aos="zoom-in">Recent Projects</h1>
         <div className='flex flex-col gap-7 lg:flex-row justify-evenly items-center mt-12'>
             <div className='max-w-[500px]'>

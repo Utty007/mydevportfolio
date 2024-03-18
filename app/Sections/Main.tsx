@@ -8,7 +8,7 @@ import Portfolio from "./Portfolio";
 
 function Main() {
   return (
-    <main className='px-12 mt-16'>
+    <main className='mt-16'>
       <Home />
       <About />
       <Portfolio />
