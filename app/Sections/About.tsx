@@ -24,8 +24,8 @@ function About() {
     <div className={`mt-16 text-center bg-white dark:bg-black p-4`}>
         <h1 data-aos="fade-up" className=' text-5xl text-[#fa043d] mb-10'>About Uthman</h1>
         <div className='flex gap-5 flex-col md:flex-row items-center justify-center m-auto'>
-          <div className='w-[250px] sm:w-[320px] h-[250px] sm:h-[350px] border-[#fa043d] border-4 rounded-full overflow-hidden bg-[#fa043d] flex items-center'>
-            <img data-aos="zoom-in" data-aos-duration="2000" className='mx-auto' src={DevImage.src} alt='An Image of Kayode Uthman'/>
+          <div data-aos="zoom-in" data-aos-duration="2000" className='w-[250px] sm:w-[320px] h-[250px] sm:h-[350px] border-[#fa043d] border-4 rounded-full overflow-hidden bg-[#fa043d] flex items-center'>
+            <img className='mx-auto' src={DevImage.src} alt='An Image of Kayode Uthman'/>
           </div>
           <div className='max-w-[600px]'>
             <p data-aos="fade-right" className='text-left text-lg sm:text-xl'>I'm a developer with a keen ability to seamlessly merge diverse front-end technologies. My passion lies in crafting intuitive user interfaces that captivate audiences across all devices. <br /> Are you looking to enhance your online presence and embark on a digital transformation journey? I'm here to collaborate with you and bring your vision to life. Let's connect and explore how we can leverage innovative web solutions to propel your business forward. </p>
