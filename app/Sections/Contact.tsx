@@ -92,16 +92,16 @@ function Contact() {
           <form ref={formRef} onSubmit={sendEmail} className='flex flex-col gap-4 sm:gap-6 lg:w-[700px]'>
             <div className='flex flex-col sm:flex-row gap-4 w-full'>
               <div className='w-full sm:w-[50%]'>
-                <input required className={`bg-blue-50 dark:bg-[#24292c] text-white p-2 rounded-md w-full outline-none ${nameInput ? 'border-red-500' : ''}`} type="text" ref={nameInputRef} name="from_name" placeholder='Enter Your Name' onBlur={handleNameBlur} />
+                <input required className={`bg-blue-50 dark:bg-[#24292c] text-black dark:text-white p-2 rounded-md w-full outline-none ${nameInput ? 'border-red-500' : ''}`} type="text" ref={nameInputRef} name="from_name" placeholder='Enter Your Name' onBlur={handleNameBlur} />
                 {nameInput && <p className='text-[12px] text-[#fa043d]'>Name is Required</p>}
               </div>
               <div className='w-full sm:w-[50%]'>
-                <input required className={`bg-blue-50 dark:bg-[#24292c] text-white p-2 rounded-md w-full outline-none ${emailInput ? 'border-red-500' : ''}`} type='text' ref={emailInputRef} name='user_email' placeholder='Enter Your Email' onBlur={handleEmailBlur} />
+                <input required className={`bg-blue-50 dark:bg-[#24292c] text-black dark:text-white p-2 rounded-md w-full outline-none ${emailInput ? 'border-red-500' : ''}`} type='text' ref={emailInputRef} name='user_email' placeholder='Enter Your Email' onBlur={handleEmailBlur} />
                 {emailInput && <p className='text-[12px] text-[#fa043d]'>Please enter a valid Email Address</p>}
               </div>
             </div>
             <div>
-              <textarea required className={`bg-blue-50 dark:bg-[#24292c] text-white p-2 rounded-md w-full outline-none ${messageInput ? 'border-red-500' : ''}`} ref={messageInputRef} name="message" placeholder='Enter Your Message' cols={30} rows={13} onBlur={handleMessageBlur}></textarea>
+              <textarea required className={`bg-blue-50 dark:bg-[#24292c] text-black dark:text-white p-2 rounded-md w-full outline-none ${messageInput ? 'border-red-500' : ''}`} ref={messageInputRef} name="message" placeholder='Enter Your Message' cols={30} rows={13} onBlur={handleMessageBlur}></textarea>
               {messageInput && <p className='text-[12px] text-[#fa043d]'>Enter a message</p>}
             </div>
             <button className='flex items-center gap-2 bg-[#fa043d] text-white p-3 rounded-md justify-center'>
