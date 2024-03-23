@@ -72,7 +72,7 @@ function Portfolio() {
                 </div> 
             </div>
           </div>
-      {/*
+      
         <div className='flex flex-col gap-7 lg:flex-row-reverse justify-evenly items-center mt-12'>
             <div className='max-w-[500px]'>
                 <Image data-aos="zoom-in-down" data-aos-duration="2000" src={ShopifyImage} alt='Shopify Homepage Image' />
@@ -91,7 +91,7 @@ function Portfolio() {
                 </div> 
             </div>
         </div>
-        */}
+       
         {/* <Link target='_blank' href="https://github.com/Utty007" className='bg-black p-3 rounded-xl flex justify-center max-w-[100px] mx-auto my-6'>See More</Link>   */}
     </div>
   )
