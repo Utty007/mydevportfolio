@@ -79,7 +79,7 @@ function Portfolio() {
             </div>
             <div data-aos="fade-right" data-aos-duration="2000" className='max-w-[500px]'>
                 <h2 className='text-lg'><span className='text-[#fa043d]'>Name:</span> Shopify Dashboard</h2>
-                <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span> I built this as my submission for a Hackathon that required us using only Html, Css and JavaScript to build the Spotify Dashboard. We were also to focus on Web Inclusivity.</h4>
+                <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span>This project focuses on Web Inclusivity. The project was optimized to be accessible by keyboard and screen reader users.</h4>
                 <h6 className='flex items-center gap-2 mt-3 text-lg'><span className='text-[#fa043d]'>Technologies used:</span> 
                     <TbBrandHtml5 className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
                     <TbBrandCss3 className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
