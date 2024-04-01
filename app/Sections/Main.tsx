@@ -8,7 +8,7 @@ import Portfolio from "./Portfolio";
 
 function Main() {
   return (
-    <main className='mt-16'>
+    <main className='mt-16 bg-[#eff6ff] text-[#24292c] dark:bg-[#24292c] dark:text-white'>
       <Home />
       <About />
       <Portfolio />

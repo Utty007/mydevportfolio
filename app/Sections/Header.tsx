@@ -3,6 +3,7 @@ import { UiFunctions } from "@/Store/UiFunctions";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+import ThemeToggle from "../UI/ThemeToggle";
 
 const Header = () => {
   const [modal, toggleModal] = UiFunctions((state) => [state.modal, state.toggleModal])
@@ -25,6 +26,7 @@ const Header = () => {
       <div className="flex items-center md:hidden">
         {!modal ? <FaBars className="cursor-pointer" onClick={() => { toggleHandler(true) }} /> : <IoMdClose className="cursor-pointer" onClick={() => { toggleHandler(false) }} />}
       </div>
+      <ThemeToggle />
     </header>
   )
 }

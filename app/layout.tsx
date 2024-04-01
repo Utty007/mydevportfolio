@@ -29,7 +29,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${modal? "overH" : ""} relative`}>
+      <body className={`${modal? "overH" : ""} relative bg-[#eff6ff] text-[#24292c] dark:bg-[#24292c] dark:text-white`}>
         <Header />
         <div className="block sm:hidden">
           {modal && <MobileNav />}
