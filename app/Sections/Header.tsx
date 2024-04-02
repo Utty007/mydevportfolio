@@ -23,10 +23,12 @@ const Header = () => {
             <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href="#Contact">CONTACT</Link></li>
         </ul>
       </div>
+      <div className="flex items-center gap-2">
+        <ThemeToggle />
       <div className="flex items-center md:hidden">
         {!modal ? <FaBars className="cursor-pointer" onClick={() => { toggleHandler(true) }} /> : <IoMdClose className="cursor-pointer" onClick={() => { toggleHandler(false) }} />}
       </div>
-      <ThemeToggle />
+      </div>
     </header>
   )
 }
