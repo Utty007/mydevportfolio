@@ -22,7 +22,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 function About() {
   return (
     <div className={`mt-16 text-center bg-white dark:bg-black p-4`}>
-        <h1 data-aos="fade-up" className=' text-5xl text-[#fa043d] mb-10'>About Uthman</h1>
+      <h1 data-aos="fade-up" className=' text-5xl text-[#fa043d] mb-10' id="About">About Uthman</h1>
         <div className='flex gap-5 flex-col md:flex-row items-center justify-center m-auto'>
           <div data-aos="zoom-in" data-aos-duration="2000" className='w-[250px] sm:w-[320px] h-[250px] sm:h-[350px] border-[#fa043d] border-4 rounded-full overflow-hidden bg-[#fa043d] flex items-center'>
             <img className='mx-auto' src={DevImage.src} alt='An Image of Kayode Uthman'/>
