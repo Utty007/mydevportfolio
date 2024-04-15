@@ -1,24 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import { WiMoonWaningCrescent4 } from "react-icons/wi";
 
 const ThemeToggle = () => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
-    // useEffect(() => {
-    //     const checkSystemTheme = () => {
-    //         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    //             setTheme('dark');
-    //         } else {
-    //             setTheme('light');
-    //         }
-    //     };
+    useEffect(() => {
+        const checkSystemTheme = () => {
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                setTheme('dark');
+            } else {
+                setTheme('light');
+            }
+        };
 
-    //     checkSystemTheme();
+        checkSystemTheme();
 
-    //     window.addEventListener('storage', checkSystemTheme);
+        window.addEventListener('storage', checkSystemTheme);
 
-    //     return () => window.removeEventListener('storage', checkSystemTheme);
-    // }, []);
+        return () => window.removeEventListener('storage', checkSystemTheme);
+    }, []);
 
     const toggleTheme = () => {
         const newTheme = theme === 'light' ? 'dark' : 'light';
