@@ -38,11 +38,6 @@ function Home() {
               <span>
                 <Link href="https://github.com/utty007"> <Gh /> </Link>
               </span>
-              <span>
-                <Link href="https://twitter.com/KayodeUthman2">
-                  <Image src={TwitterLogo} alt='Twitter Logo' width={40} height={40}/>
-                </Link>
-              </span>
             </div>
         </div>
         <div data-aos="fade-right" className='sm:w-[500px] sm:h-[500px] w-[350px] h-[350px] cursor-pointer flex items-center'>
