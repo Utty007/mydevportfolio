@@ -28,7 +28,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link href='https://c360-music.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/C360-Music-App" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
+                    <Link href='https://artsy-ecom.netlify.app/' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/artsy" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
                 </div> 
             </div>
         </div>
