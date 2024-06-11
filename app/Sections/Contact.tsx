@@ -71,8 +71,8 @@ function Contact() {
   };
 
   return (
-    <div className='px-12'>
-      <h1 className='text-center mt-10 mb-5 text-5xl text-[#fa043d]' id="Contact">Contact Me</h1>
+    <div className='px-12' id="Contact">
+      <h1 className='text-center mt-10 mb-5 text-5xl text-[#fa043d]'>Contact Me</h1>
       <div className='flex flex-col-reverse lg:flex-row gap-4 justify-center'>
         <div className='flex flex-col sm:flex-row lg:flex-col gap-3'>
           <div data-aos="zoom-out-down" data-aos-duration="2000" className='bg-white dark:bg-black shadow-sm w-full sm:w-80 h-40 flex flex-col items-center justify-evenly'>

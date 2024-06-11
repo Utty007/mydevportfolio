@@ -17,10 +17,9 @@ const Header = () => {
       <div className="hidden sm:block">
         <ul className="flex gap-5">
             <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href='#Home'>HOME</Link></li>
-            <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href="#About">ABOUT</Link></li>
-            <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href="#Portfolio">PORTFOLIO</Link></li>
-            {/* <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href="#Resume">RESUME</Link></li> */}
-            <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href="#Contact">CONTACT</Link></li>
+            <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href='#About'>ABOUT</Link></li>
+            <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href='#Portfolio'>PORTFOLIO</Link></li>
+            <li><Link  className="border-b-2 border-transparent hover:border-[#fa043d] cursor-pointer pb-1 transition-all" href='#Contact'>CONTACT</Link></li>
         </ul>
       </div>
       <div className="flex items-center gap-2">
