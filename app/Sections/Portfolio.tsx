@@ -5,6 +5,7 @@ import PiggyVestImage from '@/app/Assets/Piggyvest-Home.png'
 import TrelloImage from '@/app/Assets/trello-clone-home.png'
 import ShopifyImage from '@/app/Assets/ShopifyDb.png'
 import artsyImage from '@/app/Assets/image.png'
+import KekeImage from '@/app/Assets/KekeHomepage.png'
 import Image from 'next/image'
 import { TbBrandNextjs, TbBrandTypescript, TbBrandTailwind, TbBrandSpotify, TbBrandReact, TbBrandCss3, TbBrandRedux, TbBrandHtml5, TbBrandJavascript, TbBrandFirebase } from 'react-icons/tb'
 import Link from 'next/link'
@@ -13,6 +14,27 @@ function Portfolio() {
   return (
     <div id="Portfolio" className='mt-16 px-12'>
         <h1 className='text-center text-5xl text-[#fa043d]' data-aos="zoom-in">Recent Projects</h1>
+        
+        <div className='flex flex-col gap-7 lg:flex-row justify-evenly items-center mt-12'>
+            <div className='max-w-[500px]'>
+                <Image data-aos="zoom-in-up" data-aos-duration="2000" src={KekeImage} alt='Keke Homepage Image'/>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="2000" className='max-w-[500px]'>
+                <h2 className='text-lg'><span className='text-[#fa043d]'>Name:</span> Keke</h2>
+                  <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span> This is a project built for a startup called Keke. I was contracted with the development of the startups landing page, and I did the Ui design, developed and deployed it, and i also worked on the SEO.
+                  </h4>
+                <h6 className='flex items-center gap-2 mt-3 text-lg'><span className='text-[#fa043d]'>Technologies used:</span> 
+                    <TbBrandTypescript className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                    <TbBrandNextjs className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                    <TbBrandTailwind className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                </h6>  
+
+                <div className='flex gap-3 items-center mt-3'>
+                    <Link href='https://kekecruise.com' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link>
+                </div> 
+            </div>
+        </div>
+        
         <div className='flex flex-col gap-7 lg:flex-row-reverse justify-evenly items-center mt-12'>
             <div className='max-w-[500px]'>
                 <Image data-aos="zoom-in-left" data-aos-duration="2000" src={artsyImage} alt='Artsy Ecommerce Homepage'/>
