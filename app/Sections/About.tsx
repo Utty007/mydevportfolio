@@ -54,11 +54,9 @@ function About() {
             </div>
             <h3 className='text-[#fa043d] text-2xl mt-6' data-aos="fade-down">Activities Outside Of Coding</h3>
             <ul className='list-disc text-left sm:text-center sm:list-none pl-4'>
-              <li data-aos="fade-right" data-aos-duration="500">School Work</li>
               <li data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">Playing Chess</li>
               <li data-aos="fade-right" data-aos-delay="1000" data-aos-duration="500">Watching movies</li>
               <li data-aos="fade-right" data-aos-delay="1500" data-aos-duration="500">Reading novels</li>
-              <li data-aos="fade-right" data-aos-delay="2000" data-aos-duration="500">Hanging out with friends.</li>
             </ul>
         </div>
     </div>
