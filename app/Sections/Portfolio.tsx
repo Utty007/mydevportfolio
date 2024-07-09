@@ -30,7 +30,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link href='https://kekecruise.com' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link>
+                    <Link href='https://kekecruise.com' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link>
                 </div> 
             </div>
         </div>
@@ -50,7 +50,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link href='https://artsy-ecom.netlify.app/' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/artsy" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
+                    <Link href='https://artsy-ecom.netlify.app/' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/artsy" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
                 </div> 
             </div>
         </div>
@@ -72,7 +72,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link href='https://c360-music.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/C360-Music-App" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
+                    <Link href='https://c360-music.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/C360-Music-App" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
                 </div> 
             </div>
         </div>
@@ -91,7 +91,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link href='https://trello-clone-bu.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/Trello-clone" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
+                    <Link href='https://trello-clone-bu.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/Trello-clone" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
                 </div> 
             </div>
         </div>
@@ -111,7 +111,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link target='_blank' href='https://piggy-vest-clone.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link target='_blank' href="https://github.com/Utty007/Piggyvest-Clone" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
+                    <Link target='_blank' href='https://piggy-vest-clone.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link target='_blank' href="https://github.com/Utty007/Piggyvest-Clone" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
                 </div> 
             </div>
           </div>
@@ -130,7 +130,7 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <Link href='https://shopify-db.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent hover:text-white border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/Shopify-Dashboard" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
+                    <Link href='https://shopify-db.netlify.app' className='bg-[#fa043d] text-white p-3 rounded-xl hover:bg-transparent border-[#fa043d] hover:border-solid border transition-all'>Live Demo</Link> <Link href="https://github.com/Utty007/Shopify-Dashboard" className='bg-sky-50 dark:bg-black p-3 rounded-xl shadow-sm'>Source Code</Link>
                 </div> 
             </div>
         </div>
