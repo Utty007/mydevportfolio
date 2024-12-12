@@ -102,7 +102,7 @@ const Experience: React.FC = () => {
         {experiences.map((exp, index) => (
           <div 
             key={exp.company} 
-            className="relative md:h-[400px] flex items-center"
+            className="relative md:h-[400px] flex gap-5 items-center"
           >
             {/* Timeline Dot */}
             <div className="absolute left-1/2 transform -translate-x-1/2 z-10 
