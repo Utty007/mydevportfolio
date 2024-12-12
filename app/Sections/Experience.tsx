@@ -18,7 +18,7 @@ const ExperienceItem: React.FC<{
 }> = ({ experience, side }) => {
   return (
     <div className={`
-      w-full md:w-1/2 md:absolute 
+      w-full mb-5 md:mb-0 md:w-1/2 md:absolute 
       ${side === 'left' ? 'md:left-0 md:pr-16' : 'md:right-0 md:pl-16'}
     `}>
       <div className={`
@@ -102,7 +102,7 @@ const Experience: React.FC = () => {
         {experiences.map((exp, index) => (
           <div 
             key={exp.company} 
-            className="relative md:h-[400px] flex gap-5 items-center"
+            className="relative md:h-[400px] flex items-center"
           >
             {/* Timeline Dot */}
             <div className="absolute left-1/2 transform -translate-x-1/2 z-10 
