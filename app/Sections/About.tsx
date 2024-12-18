@@ -28,8 +28,7 @@ function About() {
             <img className='mx-auto' src={DevImage.src} alt='An Image of Kayode Uthman'/>
           </div>
           <div className='max-w-[600px]'>
-            <p className='text-left text-lg sm:text-xl'>I'm a developer with a keen ability to seamlessly merge diverse front-end technologies. My passion lies in crafting intuitive user interfaces that captivate audiences across all devices. <br /> Are you looking to enhance your online presence and embark on a digital transformation journey? I'm here to collaborate with you and bring your vision to life. Let's connect and explore how we can leverage innovative web solutions to propel your business forward. </p>
-          </div>
+            <p className='text-left text-lg sm:text-xl'>I'm a developer with a keen ability to seamlessly merge diverse front-end technologies. My passion lies in crafting intuitive user interfaces that captivate audiences across all devices. <br /> Are you looking to enhance your online presence and embark on a digital transformation journey? I'm here to collaborate with you and bring your vision to life. Let's connect and explore how we can leverage innovative web solutions to propel your business forward. </p></div>
         </div>
         <div className='mt-10'>
             <h3 className=' text-[#fa043d] text-2xl'>Education</h3>

@@ -10,7 +10,7 @@ export default function Home() {
   const [modal] = UiFunctions(state => [state.modal])
 
   return (
-    <main className={`${modal? "overH" : ""} relative bg-[#eff6ff] text-[#24292c] dark:bg-[#24292c] dark:text-white`}>
+    <main className={`${modal? "overH" : ""} relative bg-[#eff6ff] text-[#24292c] dark:bg-gray-900 dark:text-white`}>
      <Main />
     </main>
   );

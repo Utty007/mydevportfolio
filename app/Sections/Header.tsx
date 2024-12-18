@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   return (
-    <header className="flex items-center justify-between px-5 sm:px-8 bg-[#eff6ff] text-[#24292c] dark:bg-[#24292c] dark:text-white py-4 sticky top-0 shadow-md z-30">
+    <header className="flex items-center justify-between px-5 sm:px-8 bg-[#eff6ff] text-[#24292c] dark:bg-gray-900 dark:text-white py-4 sticky top-0 shadow-md z-30">
       <div className="text-3xl animate-pulse"> Utty </div>
       <div className="hidden sm:block">
         <ul className="flex gap-5">
