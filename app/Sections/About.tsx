@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 import React from 'react';
-import DevImage from '@/app/Assets/Utty.jpeg'
+import DevImage from '@/app/Assets/Utty.jpg'
 import { BiStar } from 'react-icons/bi'
 import { BsStarFill, BsStarHalf } from 'react-icons/bs'
 import Html from '../Assets/SVG/Html'
