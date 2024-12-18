@@ -19,12 +19,12 @@ function Home() {
             <h1 className='text-6xl py-2'>Kayode Uthman</h1>
             <h2 className='text-3xl'>Front End Engineer</h2>
             
-            <p className='text-left text-lg sm:text-xl'>
+            <p className='text-left text-base'>
               I'm a forward-thinking front-end developer specializing in the creation of modern, mobile-responsive web applications. 
             </p>
 
             
-            <h3 className='text-2xl mb-2'>FIND ME ON</h3>
+            <h3 className='text-2xl mb-2 mt-8'>FIND ME ON</h3>
             <div className='flex items-center gap-4'>
               <span>
                 <Link href="https://www.instagram.com/kayodeiremideuthman"><Ig /></Link>
