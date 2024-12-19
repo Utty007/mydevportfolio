@@ -16,7 +16,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className='bg-[#eff6ff] text-gray-900 min-h-[100vh] flex flex-col justify-between dark:bg-gray-900 dark:text-white'>
+      <body className='bg-[#eff6ff] text-gray-900 min-h-[100vh] flex flex-col justify-between dark:text-white'>
         <Header />
         {children}
         <Footer />
