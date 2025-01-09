@@ -1,5 +1,6 @@
-import React from 'react'
-import About from '../Sections/About'
+import React, { lazy } from 'react'
+
+const About = lazy(() => import('../Sections/About'))
 
 function page() {
   return (

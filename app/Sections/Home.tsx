@@ -13,7 +13,7 @@ import Gh from '../Assets/SVG/Gh';
 function Home() {
 
   return (
-    <div id='Home' className='flex flex-col md:flex-row-reverse justify-evenly items-center py-5 px-12 bg-[#eff6ff] text-[#24292c] dark:bg-gray-900 dark:text-white'>
+    <div id='Home' className='flex flex-col md:flex-row-reverse justify-evenly items-center py-5 px-12 bg-white text-[#24292c] dark:bg-black dark:text-white'>
           <div className='min-w-[300px] max-w-[600px]'>
             <h3>Hello, <span className='text-[#fa043d] text-xl'>I'm</span></h3>
             <h1 className='text-6xl py-2'>Kayode Uthman</h1>
@@ -32,8 +32,8 @@ function Home() {
               <span>
                 <Link href="https://www.linkedin.com/in/kayode-uthman007"><Li /></Link>
               </span>
-              <span>
-                <Link href="https://github.com/utty007"> <Gh /> </Link>
+              <span className='dark:bg-white dark:w-[40px] dark:h-[40px]'>
+                <Link href="https://github.com/utty007" > <Gh /> </Link>
               </span>
             </div>
         </div>

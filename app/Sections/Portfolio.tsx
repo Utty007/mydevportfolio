@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-key */
 import React from 'react'
 import C360Image from '@/app/Assets/C360-Active.png'
@@ -5,7 +6,9 @@ import PiggyVestImage from '@/app/Assets/Piggyvest-Home.png'
 import TrelloImage from '@/app/Assets/trello-clone-home.png'
 import ShopifyImage from '@/app/Assets/ShopifyDb.png'
 import artsyImage from '@/app/Assets/image.png'
-import KekeImage from '@/app/Assets/KekeHomepage.png'
+import KekeImage from '@/app/Assets/kekecruiseScreenshot.png'
+import VertexImage from "@/app/Assets/vertexScreenshot.png"
+import EngageAmImage from "@/app/Assets/EngageAm.png"
 import Image from 'next/image'
 import { TbBrandNextjs, TbBrandTypescript, TbBrandTailwind, TbBrandSpotify, TbBrandReact, TbBrandCss3, TbBrandRedux, TbBrandHtml5, TbBrandJavascript, TbBrandFirebase } from 'react-icons/tb'
 import Link from 'next/link'
@@ -17,11 +20,11 @@ function Portfolio() {
         <h1 className='text-center text-5xl text-[#fa043d]'>Recent Projects</h1>
         <div className='flex flex-col gap-7 lg:flex-row justify-evenly items-center mt-12'>
             <div className='max-w-[500px]'>
-                <Image src={KekeImage} alt='Keke Homepage Image'/>
+                <Image src={VertexImage} alt='Vertex Screenshot'/>
             </div>
             <div className='max-w-[500px]'>
-                <h2 className='text-lg'><span className='text-[#fa043d]'>Name:</span> Keke</h2>
-                  <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span> This is a project built for a startup called Keke. I was contracted with the development of the startups landing page, and I did the Ui design, developed and deployed it, and i also worked on the SEO.
+                <h2 className='text-lg'><span className='text-[#fa043d]'>Name:</span> Vertex</h2>
+                  <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span> I was contracted by the sales and marketing startup Vertex to design, develop, and deploy a high-converting landing page, combining UI/UX design and SEO optimization to elevate their brand's online visibility and drive engagement.
                   </h4>
                 <h6 className='flex items-center gap-2 mt-3 text-lg'><span className='text-[#fa043d]'>Technologies used:</span> 
                     <TbBrandTypescript className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
@@ -30,10 +33,50 @@ function Portfolio() {
                 </h6>  
 
                 <div className='flex gap-3 items-center mt-3'>
-                    <LiveDemo link='https://kekecruise.com'/>
+                    <LiveDemo showDemo={false} link='https://vertexglobal.org'/>
                 </div> 
             </div>
         </div>
+        <div className='flex flex-col gap-7 lg:flex-row-reverse justify-evenly items-center mt-12'>
+            <div className='max-w-[500px]'>
+                <Image src={EngageAmImage} alt='EngageAm Image' />
+            </div>
+            <div className='max-w-[500px]'>
+                <h2 className='text-lg'><span className='text-[#fa043d]'>Name:</span> Engage Am</h2>
+                <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span> EngageAm is a community-driven platform designed to help you grow your social media engagement while rewarding genuine actions. Whether you’re looking for likes, comments, views, or followers, we make it effortless to connect with others for mutual growth.</h4>
+                <h6 className='flex items-center gap-2 mt-3 text-lg'><span className='text-[#fa043d]'>Technologies used:</span> 
+                    <TbBrandNextjs className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' />
+                    <TbBrandTypescript className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                    <TbBrandTailwind className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                </h6>  
+
+                <div className='flex gap-3 items-center mt-3'>
+                    <LiveDemo showDemo={false} link='https:engageam.app/dashboard'/>
+                </div> 
+            </div>
+          </div>
+          
+        <div className='flex flex-col gap-7 lg:flex-row justify-evenly items-center mt-12'>
+            <div className='max-w-[500px]'>
+                <Image src={KekeImage} alt='Keke Homepage Image'/>
+            </div>
+            <div className='max-w-[500px]'>
+                <h2 className='text-lg'><span className='text-[#fa043d]'>Name:</span> KekeCruise</h2>
+                  <h4 className='text-lg'><span className='text-[#fa043d]'>About:</span> I was contracted by the startup KekeCruise to design, develop, and deploy their landing page, handling both the UI/UX design and SEO optimization to enhance their online presence and visibility.
+                  </h4>
+                <h6 className='flex items-center gap-2 mt-3 text-lg'><span className='text-[#fa043d]'>Technologies used:</span> 
+                    <TbBrandTypescript className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                    <TbBrandNextjs className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                    <TbBrandTailwind className='w-10 h-10 p-1 bg-white shadow-sm dark:bg-black' /> 
+                </h6>  
+
+                <div className='flex gap-3 items-center mt-3'>
+                    <LiveDemo showDemo={false} link='https://kekecruise.com'/>
+                </div> 
+            </div>
+          </div>
+          
+        <h2 className='text-2xl text-[#fa043d] font-semibold mt-8 mb-5 bg-[#eff6ff] dark:bg-gray-900 p-2 text-center'>Some Personal Projects</h2>
         
         <div className='flex flex-col gap-7 lg:flex-row-reverse justify-evenly items-center mt-12'>
             <div className='max-w-[500px]'>

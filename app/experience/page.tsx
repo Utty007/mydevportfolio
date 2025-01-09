@@ -1,5 +1,6 @@
-import React from 'react'
-import Experience from '../Sections/Experience'
+import React, { lazy } from 'react'
+
+const Experience = lazy(() => import('../Sections/Experience'))
 
 function page() {
   return (

@@ -22,7 +22,7 @@ const ExperienceItem: React.FC<{
       ${side === 'left' ? 'md:left-0 md:pr-16' : 'md:right-0 md:pl-16'}
     `}>
       <div className={`
-        bg-white dark:bg-gray-900 
+        bg-[#eff6ff] dark:bg-gray-900 
         p-6 rounded-lg shadow-lg 
         ${side === 'left' ? 'md:mr-auto' : 'md:ml-auto'}
         relative z-10
@@ -54,10 +54,25 @@ const ExperienceItem: React.FC<{
 const Experience: React.FC = () => {
   // Experience data
   const experiences: ExperienceItemProps[] = [
+  {
+      company: "EngageAm",
+      role: "Freelance Frontend Developer",
+      duration: "Contract-based. December 2024 - January 2025",
+      responsibilities: [
+  "Developed and implemented the EngageAm dashboard pages, including Dashboard, Posts, Flagged Posts, Disputes, Points, and Subscription pages.",
+  "Integrated each dashboard page with the backend API to enable seamless data retrieval and updates.",
+  "Collaborated with the backend team to ensure efficient communication between the frontend and backend services.",
+  "Designed and optimized the user interface for all assigned dashboard pages to enhance user experience and functionality.",
+  "Implemented authentication and role-based access control for the dashboard features.",
+  "Debugged and resolved issues related to data handling and UI inconsistencies across all dashboard pages.",
+  "Ensured the dashboard pages were mobile-responsive and compatible across different browsers."
+],
+      technologies: [TbBrandNextjs, TbBrandTypescript, TbBrandTailwind]
+    },
     {
       company: "Cimpla Africa",
       role: "Junior Frontend Engineer",
-      duration: "July 2024 - Present",
+      duration: "July 2024 - December 2024",
       responsibilities: [
         "Developed and maintained reusable component libraries",
         "Implemented robust frontend solutions for fintech platform",
@@ -81,28 +96,29 @@ const Experience: React.FC = () => {
     {
       company: "KekeCruise",
       role: "Freelance Web Developer",
-      duration: "Project-based",
+      duration: "Contract-based",
       responsibilities: [
         "Designed and developed responsive landing page for transportation startup",
         "Implemented modern web design principles",
         "Optimized website for performance and user experience"
       ],
       technologies: [TbBrandNextjs, TbBrandTypescript, TbBrandTailwind]
-    }
+    },
+    
   ];
 
   return (
     <div id="Experience" className="px-6 md:px-12 bg-gray-50 dark:bg-black py-16">
       <h1 className="text-center text-5xl text-[#fa043d] mb-12">Professional Experience</h1>
       
-      <div className="relative max-w-6xl mx-auto md:h-[1200px]">
+      <div className="relative max-w-6xl mx-auto md:h-[2000px]">
         {/* Central Timeline */}
         <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full border-r-2 border-gray-300 dark:border-gray-700"></div>
         
         {experiences.map((exp, index) => (
           <div 
             key={exp.company} 
-            className="relative md:h-[400px] flex items-center"
+            className="relative md:h-[500px] flex items-center"
           >
             {/* Timeline Dot */}
             <div className="absolute left-1/2 transform -translate-x-1/2 z-10 

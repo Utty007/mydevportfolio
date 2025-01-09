@@ -1,12 +1,11 @@
 'use client'
 
-import Main from "./Sections/Main";
+import { lazy } from "react";
 import { UiFunctions } from "@/Store/UiFunctions";
-import MobileNav from "@/app/Sections/MobileNav";
-import Overlay from "@/app/UI/Overlay";
+
+const Main = lazy(() => import('./Sections/Main'))
 
 export default function Home() {
-
   const [modal] = UiFunctions(state => [state.modal])
 
   return (
